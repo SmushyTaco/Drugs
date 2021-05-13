@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "drugs:cocaine"
+  },
+  "result": "drugs:crack",
+  "experience": 0.35,
+  "cookingtime": 100
+}
