@@ -5,7 +5,7 @@
   "name": "Drugs",
   "description": "This mod adds drugs.",
   "authors": [
-    "SmushyTaco (Creator of Mod)",
+    "SmushyTaco (Creator and Maintainer)",
     "Pois1x (Graphic Designer)"
   ],
   "contact": {
@@ -27,7 +27,7 @@
   "depends": {
     "fabricloader": ">=0.11.3",
     "fabric": "*",
-    "fabric-language-kotlin": ">=1.5.0+kotlin.1.4.31",
+    "fabric-language-kotlin": ">=1.6.0+kotlin.1.5.0",
     "minecraft": "1.16.x"
   }
 }
