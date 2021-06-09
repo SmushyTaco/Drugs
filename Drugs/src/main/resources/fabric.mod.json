@@ -22,6 +22,12 @@
         "adapter": "kotlin",
         "value": "com.smushytaco.drugs.Drugs"
       }
+    ],
+    "client": [
+      {
+        "adapter": "kotlin",
+        "value": "com.smushytaco.drugs.DrugsClient"
+      }
     ]
   },
   "depends": {

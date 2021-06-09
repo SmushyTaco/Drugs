@@ -17,6 +17,9 @@
     },
     "age=5": {
       "model": "drugs:block/cannabis_crop_stage5"
+    },
+    "age=6": {
+      "model": "drugs:block/cannabis_crop_stage6"
     }
   }
 }

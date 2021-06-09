@@ -68,14 +68,16 @@ object Drugs : ModInitializer {
     private val DRUGS_GROUP = FabricItemGroupBuilder
         .build(Identifier(MOD_ID, "drugs")) { ItemStack(CANNABIS_IN_A_BLUNT) }
     // Cannabis
-    private val CANNABIS_CROP = object:CropBlock(Settings.of(Material.PLANT).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP)) {
-        override fun getMaxAge() = 5
+    val CANNABIS_CROP = object:CropBlock(Settings.of(Material.PLANT).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP)) {
+        override fun getMaxAge() = 6
     }
     private val CANNABIS_SEED = AliasedBlockItem(CANNABIS_CROP, Item.Settings().group(DRUGS_GROUP))
     private val CANNABIS = Item(Item.Settings().group(DRUGS_GROUP))
     private val CANNABIS_IN_A_BLUNT: Item = CannabisInABluntItem(Item.Settings().group(DRUGS_GROUP))
     // Cocaine
-    private val COCA_CROP = object:CropBlock(Settings.of(Material.PLANT).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP)) {}
+    val COCA_CROP = object:CropBlock(Settings.of(Material.PLANT).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP)) {
+        override fun getMaxAge() = 6
+    }
     private val COCA_SEED = AliasedBlockItem(COCA_CROP, Item.Settings().group(DRUGS_GROUP))
     val COCA_LEAF = Item(Item.Settings().group(DRUGS_GROUP))
     val COCAINE = Item(Item.Settings().group(DRUGS_GROUP))
