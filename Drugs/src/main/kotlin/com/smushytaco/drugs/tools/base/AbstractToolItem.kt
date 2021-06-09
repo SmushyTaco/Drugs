@@ -40,6 +40,7 @@ abstract class AbstractToolItem(material: ToolMaterial, settings: Settings): Too
             if (user.inventory.emptySlot == -1) {
                 user.sendMessage(Text.of("Your inventory is full."), true)
             } else if (!user.inventory.containsAll(itemsToRemove)) {
+                if (!world.isClient) return TypedActionResult.fail(tool)
                 val stringBuilder = StringBuilder("You need ")
                 val missingItems = user.inventory.missingItems(itemsToRemove)
                 if (missingItems.size == 1) {
