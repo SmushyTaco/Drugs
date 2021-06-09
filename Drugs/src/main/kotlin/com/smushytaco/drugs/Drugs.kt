@@ -14,14 +14,13 @@ import net.minecraft.block.CropBlock
 import net.minecraft.block.Material
 import net.minecraft.enchantment.Enchantments
 import net.minecraft.item.*
-import net.minecraft.loot.ConstantLootTableRange
 import net.minecraft.loot.condition.RandomChanceLootCondition
 import net.minecraft.loot.entry.ItemEntry
 import net.minecraft.loot.function.ApplyBonusLootFunction
+import net.minecraft.loot.provider.number.ConstantLootNumberProvider
 import net.minecraft.sound.BlockSoundGroup
 import net.minecraft.util.Identifier
 import net.minecraft.util.registry.Registry
-@Suppress("UNUSED")
 object Drugs : ModInitializer {
     private const val MOD_ID = "drugs"
     override fun onInitialize() {
@@ -52,13 +51,13 @@ object Drugs : ModInitializer {
         LootTableLoadingCallback.EVENT.register(LootTableLoadingCallback { _, _, id, supplier, _ ->
             if ("minecraft:blocks/grass" == id.toString()) {
                 val cannabisSeed = FabricLootPoolBuilder.builder()
-                    .rolls(ConstantLootTableRange(1))
+                    .rolls(ConstantLootNumberProvider.create(1.0F))
                     .withEntry(ItemEntry.builder(CANNABIS_SEED).build())
                     .withCondition(RandomChanceLootCondition.builder(0.01F).build())
                     .apply(ApplyBonusLootFunction.uniformBonusCount(Enchantments.FORTUNE, 2))
                 supplier.pool(cannabisSeed)
                 val cocaSeed = FabricLootPoolBuilder.builder()
-                    .rolls(ConstantLootTableRange(1))
+                    .rolls(ConstantLootNumberProvider.create(1.0F))
                     .withEntry(ItemEntry.builder(COCA_SEED).build())
                     .withCondition(RandomChanceLootCondition.builder(0.01F).build())
                     .apply(ApplyBonusLootFunction.uniformBonusCount(Enchantments.FORTUNE, 2))
