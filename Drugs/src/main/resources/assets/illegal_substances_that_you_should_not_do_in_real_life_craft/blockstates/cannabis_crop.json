@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "illegal_substances_that_you_should_not_do_in_real_life_craft:block/cannabis_crop_stage0"
+    },
+    "age=1": {
+      "model": "illegal_substances_that_you_should_not_do_in_real_life_craft:block/cannabis_crop_stage1"
+    },
+    "age=2": {
+      "model": "illegal_substances_that_you_should_not_do_in_real_life_craft:block/cannabis_crop_stage2"
+    },
+    "age=3": {
+      "model": "illegal_substances_that_you_should_not_do_in_real_life_craft:block/cannabis_crop_stage3"
+    },
+    "age=4": {
+      "model": "illegal_substances_that_you_should_not_do_in_real_life_craft:block/cannabis_crop_stage4"
+    },
+    "age=5": {
+      "model": "illegal_substances_that_you_should_not_do_in_real_life_craft:block/cannabis_crop_stage5"
+    },
+    "age=6": {
+      "model": "illegal_substances_that_you_should_not_do_in_real_life_craft:block/cannabis_crop_stage6"
+    },
+    "age=7": {
+      "model": "illegal_substances_that_you_should_not_do_in_real_life_craft:block/cannabis_crop_stage6"
+    }
+  }
+}

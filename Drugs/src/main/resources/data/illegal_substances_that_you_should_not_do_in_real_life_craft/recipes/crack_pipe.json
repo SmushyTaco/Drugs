@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  W",
+    "WWW",
+    "   "
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:glass"
+    }
+  },
+  "result": {
+    "item": "illegal_substances_that_you_should_not_do_in_real_life_craft:crack_pipe"
+  }
+}

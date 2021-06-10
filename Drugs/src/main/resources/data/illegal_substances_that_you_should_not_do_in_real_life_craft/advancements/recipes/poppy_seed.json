@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "illegal_substances_that_you_should_not_do_in_real_life_craft:poppy_seed"
+    ]
+  },
+  "criteria": {
+    "has_poppy": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:poppy"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "illegal_substances_that_you_should_not_do_in_real_life_craft:poppy_seed"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_poppy",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "illegal_substances_that_you_should_not_do_in_real_life_craft:item/cannabis"
+  }
+}

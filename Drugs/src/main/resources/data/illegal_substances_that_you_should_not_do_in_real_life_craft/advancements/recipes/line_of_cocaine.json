@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "illegal_substances_that_you_should_not_do_in_real_life_craft:line_of_cocaine"
+    ]
+  },
+  "criteria": {
+    "has_cocaine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "illegal_substances_that_you_should_not_do_in_real_life_craft:cocaine"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "illegal_substances_that_you_should_not_do_in_real_life_craft:line_of_cocaine"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_cocaine",
+      "has_the_recipe"
+    ]
+  ]
+}
