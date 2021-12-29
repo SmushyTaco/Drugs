@@ -1,7 +1,7 @@
 package com.smushytaco.drugs
 import com.smushytaco.drugs.drug_items.CannabisInABluntItem
 import com.smushytaco.drugs.drug_items.CrackItem
-import com.smushytaco.drugs.drug_items.HeroineInANeedleItem
+import com.smushytaco.drugs.drug_items.HeroinInANeedleItem
 import com.smushytaco.drugs.drug_items.LineOfCocaineItem
 import com.smushytaco.drugs.tools.material.CustomToolMaterial
 import com.smushytaco.drugs.tools.KnifeToolItem
@@ -38,11 +38,11 @@ object Drugs : ModInitializer {
         // Crack
         Registry.register(Registry.ITEM, Identifier(MOD_ID, "crack_pipe"), CRACK_PIPE)
         Registry.register(Registry.ITEM, Identifier(MOD_ID, "crack"), CRACK)
-        // Heroine
+        // Heroin
         Registry.register(Registry.ITEM, Identifier(MOD_ID, "poppy_seed"), POPPY_SEED)
         Registry.register(Registry.ITEM, Identifier(MOD_ID, "needle"), NEEDLE)
-        Registry.register(Registry.ITEM, Identifier(MOD_ID, "heroine"), HEROINE)
-        Registry.register(Registry.ITEM, Identifier(MOD_ID, "heroine_in_a_needle"), HEROINE_IN_A_NEEDLE)
+        Registry.register(Registry.ITEM, Identifier(MOD_ID, "heroin"), HEROIN)
+        Registry.register(Registry.ITEM, Identifier(MOD_ID, "heroin_in_a_needle"), HEROIN_IN_A_NEEDLE)
         // Tools
         Registry.register(Registry.ITEM, Identifier(MOD_ID, "knife"), KNIFE)
         Registry.register(Registry.ITEM, Identifier(MOD_ID, "spoon"), SPOON)
@@ -85,11 +85,11 @@ object Drugs : ModInitializer {
     // Crack
     val CRACK_PIPE = Item(Item.Settings().maxCount(1).group(DRUGS_GROUP))
     private val CRACK = CrackItem(Item.Settings().group(DRUGS_GROUP))
-    // Heroine
+    // Heroin
     private val POPPY_SEED = Item(Item.Settings().group(DRUGS_GROUP))
     val NEEDLE = Item(Item.Settings().group(DRUGS_GROUP))
-    val HEROINE = Item(Item.Settings().group(DRUGS_GROUP))
-    val HEROINE_IN_A_NEEDLE = HeroineInANeedleItem(Item.Settings().group(DRUGS_GROUP))
+    val HEROIN = Item(Item.Settings().group(DRUGS_GROUP))
+    val HEROIN_IN_A_NEEDLE = HeroinInANeedleItem(Item.Settings().group(DRUGS_GROUP))
     // Tools
     private val KNIFE = KnifeToolItem(CustomToolMaterial, Item.Settings().group(DRUGS_GROUP))
     private val SPOON = SpoonToolItem(CustomToolMaterial, Item.Settings().group(DRUGS_GROUP))

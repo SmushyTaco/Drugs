@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "drugs:heroine"
+      "drugs:heroin_from_smoking"
     ]
   },
   "criteria": {
@@ -19,7 +19,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "drugs:heroine"
+        "recipe": "drugs:heroin_from_smoking"
       }
     }
   },

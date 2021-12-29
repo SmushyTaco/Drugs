@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "drugs:heroine_from_campfire_cooking"
+      "drugs:heroin"
     ]
   },
   "criteria": {
@@ -19,7 +19,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "drugs:heroine_from_campfire_cooking"
+        "recipe": "drugs:heroin"
       }
     }
   },

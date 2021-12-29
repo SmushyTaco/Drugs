@@ -5,7 +5,7 @@ import net.minecraft.entity.player.PlayerEntity
 import net.minecraft.sound.SoundCategory
 import net.minecraft.sound.SoundEvent
 import net.minecraft.sound.SoundEvents
-class HeroineInANeedleItem(settings: Settings): AbstractDrugItem(settings) {
+class HeroinInANeedleItem(settings: Settings): AbstractDrugItem(settings) {
     override val statusEffects = arrayOf(
         createStatusEffect(StatusEffects.HASTE, 15, 2),
         createStatusEffect(StatusEffects.SATURATION, 30, 2))

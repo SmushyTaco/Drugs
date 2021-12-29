@@ -3,7 +3,7 @@
   "ingredient": {
     "item": "drugs:poppy_seed"
   },
-  "result": "drugs:heroine",
+  "result": "drugs:heroin",
   "experience": 0.35,
   "cookingtime": 600
 }
