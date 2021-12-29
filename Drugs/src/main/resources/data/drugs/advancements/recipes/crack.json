@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "drugs:crack"
+    ]
+  },
+  "criteria": {
+    "has_cocaine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "drugs:cocaine"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "drugs:crack"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_cocaine",
+      "has_the_recipe"
+    ]
+  ]
+}

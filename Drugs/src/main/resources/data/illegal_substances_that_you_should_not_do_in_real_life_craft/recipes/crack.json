@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "illegal_substances_that_you_should_not_do_in_real_life_craft:cocaine"
-  },
-  "result": "illegal_substances_that_you_should_not_do_in_real_life_craft:crack",
-  "experience": 0.35,
-  "cookingtime": 200
-}

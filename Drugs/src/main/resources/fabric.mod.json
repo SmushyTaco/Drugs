@@ -1,32 +1,32 @@
 {
   "schemaVersion": 1,
-  "id": "illegal_substances_that_you_should_not_do_in_real_life_craft",
+  "id": "drugs",
   "version": "${version}",
-  "name": "Illegal Substances That You Should Not Do In Real Life Craft",
-  "description": "This mod adds illegal substances that you should not do in real life.",
+  "name": "Drugs",
+  "description": "This mod adds drugs.",
   "authors": [
     "SmushyTaco (Creator and Maintainer)",
     "Pois1x (Graphic Designer)"
   ],
   "contact": {
     "homepage": "https://www.smushytaco.com/",
-    "issues": "https://www.curseforge.com/minecraft/mc-mods/illegal-substances-that-you-should-not-do-in-real-life-craft/issues/",
-    "sources": "https://github.com/realSmushyTaco/Illegal-Substances-That-You-Should-Not-Do-In-Real-Life-Craft/"
+    "issues": "https://www.curseforge.com/minecraft/mc-mods/drugs-refabricated/issues/",
+    "sources": "https://github.com/realSmushyTaco/Drugs/"
   },
   "license": "GNU Lesser General Public License version 3 (LGPLv3)",
-  "icon": "assets/illegal_substances_that_you_should_not_do_in_real_life_craft/icon.png",
+  "icon": "assets/drugs/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
       {
         "adapter": "kotlin",
-        "value": "com.smushytaco.illegal_substances_that_you_should_not_do_in_real_life_craft.IllegalSubstancesThatYouShouldNotDoInRealLifeCraft"
+        "value": "com.smushytaco.drugs.Drugs"
       }
     ],
     "client": [
       {
         "adapter": "kotlin",
-        "value": "com.smushytaco.illegal_substances_that_you_should_not_do_in_real_life_craft.IllegalSubstancesThatYouShouldNotDoInRealLifeCraftClient"
+        "value": "com.smushytaco.drugs.DrugsClient"
       }
     ]
   },

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " W ",
+    " M ",
+    " M "
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:iron_ingot"
+    },
+    "M": {
+      "item": "minecraft:glass"
+    }
+  },
+  "result": {
+    "item": "drugs:needle"
+  }
+}

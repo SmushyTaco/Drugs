@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "drugs:cannabis_in_a_blunt"
+    ]
+  },
+  "criteria": {
+    "has_empty_blunt": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "drugs:empty_blunt"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "drugs:cannabis_in_a_blunt"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_empty_blunt",
+      "has_the_recipe"
+    ]
+  ]
+}

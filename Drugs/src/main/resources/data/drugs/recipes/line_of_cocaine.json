@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "WWW",
+    "   "
+  ],
+  "key": {
+    "W": {
+      "item": "drugs:cocaine"
+    }
+  },
+  "result": {
+    "item": "drugs:line_of_cocaine"
+  }
+}

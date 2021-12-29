@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "drugs:poppy_seed"
+  },
+  "result": "drugs:heroine",
+  "experience": 0.35,
+  "cookingtime": 200
+}

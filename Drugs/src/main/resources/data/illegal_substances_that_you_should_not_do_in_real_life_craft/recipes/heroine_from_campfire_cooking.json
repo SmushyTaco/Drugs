@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:campfire_cooking",
-  "ingredient": {
-    "item": "illegal_substances_that_you_should_not_do_in_real_life_craft:poppy_seed"
-  },
-  "result": "illegal_substances_that_you_should_not_do_in_real_life_craft:heroine",
-  "experience": 0.35,
-  "cookingtime": 600
-}
