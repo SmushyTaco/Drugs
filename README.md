@@ -1,1 +1,2 @@
-This mod has been abandoned, do what you please with it.
+# Drugs
+This mod will be updated here but will not be on modding platforms such as Curseforge because they won't accept my hard work.
